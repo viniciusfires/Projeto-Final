@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*text-decoration: none;*/
+}
+header{
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #F7B432;
+}
+.topo{ 
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px red;
+}
+.topo .menu-principal{
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+}
+.topo .menu-principal ul{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+}
+.topo .menu-principal li{
+    padding: 8px 14px;   
+}
+.topo .menu-principal li a{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+.banner img{
+    width: 100%;
+}
+.linha-banner{
+    border-bottom:28px solid #f7b432;
+}
+.banner-delivery{
+    position: absolute;
+    width: 1318px;
+    height: 743px;
+    left: 61px;
+    top: 919px;
+    border-radius: 60px;
+}
+/* configurando os cards */
+.fila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+  }
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}   
+.card p{
+    color: #a3a5ae;
+    font-size: 16px;
+}
+.primeiro, .segundo, .terceiro{
+    border-left: 3px solid #f7b432;
+}
+/* término da configuração dos cards */ 

@@ -40,15 +40,92 @@ header{
 .linha-banner{
     border-bottom:28px solid #f7b432;
 }
-.banner-delivery{
-    position: absolute;
-    width: 1318px;
-    height: 743px;
-    left: 61px;
-    top: 919px;
-    border-radius: 60px;
+/* Banner e Texto do site */
+.Primeiro-conteudo{
+    display: flex;
 }
-/* configurando os cards */
+.Primeiro-conteudo .imagem{
+    width: 50%;
+}
+.Primeiro-conteudo .imagem img{
+    width: 100%;
+}
+.Primeiro-conteudo .texto-conteudo1{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-conteudo1 div{
+    width: 80%;
+}
+.texto-conteudo1 h1{
+    color: black;
+    font-weight: 100;
+    font-size: 56px;
+    font-weight: bold;
+}
+.texto-conteudo1 p{
+    font-size: 14px;
+    line-height: 32px;
+    padding: 12px 0;
+}
+.texto-conteudo1 a{
+    background-color:#d86450;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: whitesmoke;
+}
+.Segundo-conteudo{
+    display: flex;
+}
+.Segundo-conteudo .imagem{
+    width: 50%;
+}
+.Segundo-conteudo .imagem img{
+    width: 100%;
+}
+.Segundo-conteudo .texto-conteudo2{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-conteudo2 div{
+    width: 80%;
+}
+.texto-conteudo2 h1{
+    color: black;
+    font-weight: 100;
+    font-size: 56px;
+    font-weight: bold;
+}
+.texto-conteudo2 p{
+    font-size: 14px;
+    line-height: 32px;
+    padding: 12px 0;
+}
+.texto-conteudo2 a{
+    background-color: #d86450;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px; 
+}
+.texto-conteudo1 a:hover{
+    background-color:#721505;
+    transition: 1s;
+}
+.texto-conteudo2 a:hover{
+    background-color:#721505;
+    transition: 1s;
+}
+/* Fim do Banner e Texto do site */
+
+/* Inicio da configuração dos cards */
 .fila{
     display: flex;
     justify-content: center;

@@ -1,13 +1,22 @@
 *{
     padding: 0;
     margin: 0;
-    /*text-decoration: none;*/
+    font-family: 'Heebo', sans-serif;
 }
+/* inicio da estilização do topo do site */
 header{
     padding: 8px 0;
     display: flex;
     justify-content: center;
-    background-color: #F7B432;
+    background-color: #141819;
+    overflow: hidden;
+
+    position: fixed;
+    width: 100%;
+}
+header .logo{
+    float: left;
+    display: block;
 }
 .topo{ 
     width: 90%;
@@ -25,24 +34,32 @@ header{
     display: flex;
     list-style: none;
 }
-.topo .menu-principal li{
-    padding: 8px 14px;   
-}
 .topo .menu-principal li a{
-    color: black;
-    font-weight: bolder;
-    font-size: 20px;
+    color: #F4C708;
+    float: right;
     text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    font-weight: bolder;
+}
+.topo .compras-login{
+    padding: 32px 16px;
+}
+.topo .compras-login a{
+    padding: 20px 16px;
+}
+/* Termino da estilização do topo do site */
+.banner{
+    width: auto;
+    height: auto;
 }
 .banner img{
     width: 100%;
 }
-.linha-banner{
-    border-bottom:28px solid #f7b432;
-}
-/* Banner e Texto do site */
+/* Banner conteudo 1 e 2 do site */
 .Primeiro-conteudo{
     display: flex;
+    background-color: #3f3f41 
 }
 .Primeiro-conteudo .imagem{
     width: 50%;
@@ -59,27 +76,31 @@ header{
 }
 .texto-conteudo1 div{
     width: 80%;
+
 }
 .texto-conteudo1 h1{
-    color: black;
+    color: #fff;
     font-weight: 100;
     font-size: 56px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .texto-conteudo1 p{
     font-size: 14px;
     line-height: 32px;
     padding: 12px 0;
+    color: #fff;
 }
 .texto-conteudo1 a{
-    background-color:#d86450;
+    background-color:#141819;
     border-radius: 8px;
     padding: 8px 20px;
     font-size: 14px;
-    color: whitesmoke;
+    color: #fff;
+    font-weight: bolder;
 }
 .Segundo-conteudo{
     display: flex;
+    background-color:#3f3f41; 
 }
 .Segundo-conteudo .imagem{
     width: 50%;
@@ -98,32 +119,34 @@ header{
     width: 80%;
 }
 .texto-conteudo2 h1{
-    color: black;
+    color: #fff;
     font-weight: 100;
     font-size: 56px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .texto-conteudo2 p{
     font-size: 14px;
     line-height: 32px;
     padding: 12px 0;
+    color: #fff;
 }
 .texto-conteudo2 a{
-    background-color: #d86450;
-    color: whitesmoke;
+    background-color: #141819;
+    color: #fff;
     border-radius: 8px;
     padding: 8px 20px;
     font-size: 14px; 
+    font-weight: bolder;
 }
 .texto-conteudo1 a:hover{
-    background-color:#721505;
+    background-color:#F4C708;
     transition: 1s;
 }
 .texto-conteudo2 a:hover{
-    background-color:#721505;
+    background-color:#F4C708;
     transition: 1s;
 }
-/* Fim do Banner e Texto do site */
+/* Fim do Banner conteudo 1 e 2 do site */
 
 /* Inicio da configuração dos cards */
 .fila{
@@ -151,3 +174,4 @@ header{
     border-left: 3px solid #f7b432;
 }
 /* término da configuração dos cards */ 
+

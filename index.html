@@ -1,38 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Dimas</title>
+    <title>Nosso Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="topo"> <!-- inicio div topo -->
-            <figure>
-                <img src="imagens/logo.svg" alt="logo dimas pizzaria">
-            </figure>
+    <header> <!-- inicio da estilização do topo do site -->
+        <div class="topo"> 
+            <div class="logo">
+                <img src="imagens/logo.png" alt="logo do site">
+            </div>
             <div class="menu-principal">
              <ul>
-                <li><a href="pedido.html" target="_blank" style="text-decoration:none">faça seu pedido</a></li>
-                <li><a href="cardapios.html" target="_blank" >cardápio</a></li>
-                <li><a href="promocoes.html" target="_blank" style="text-decoration:none">promoções</a></li>
-                <li><a href="sobre.html" target="_blank" >sobre</a></li>
+                <li><a href="pedido.html" target="_blank" style="text-decoration:none">MENU</a></li>
+                <li><a href="cardapios.html" target="_blank" >PORTFÓLIOS</a></li>
+                <li><a href="promocoes.html" target="_blank" style="text-decoration:none">CONTATOS</a></li>
+                <li><a href="sobre.html" target="_blank" >SOBRE</a></li>
              </ul>
             </div>
-        </div>  <!-- fim da div topo -->
-    </header> 
+            <div class="compras-login">
+                <a href="#" target="blank"> <img src=imagens/carrinho.svg alt="icone do carrinho de compras"></a>
+                <a href="#" target="blank"> <img src=imagens/login.svg alt="icone de login do site"></a>
+            </div>
+        </div>  
+    </header> <!-- final da estilização do topo do site -->
 
     <section class="banner"> <!-- inicio do banner principal -->
-        <img src="imagens/banner-principal.svg" alt="banner do site">
+        <img src="imagens/banner-principal-segunda-opcao.png" alt="banner do site">
     </section> <!-- fim do banner principal -->
-    
-    <div id='linha-banner' class='linha-banner'></div> <!-- linha do banner -->
 
     <section class="Primeiro-conteudo"> <!-- Inicio Primeiro conteúdo do site (imagem, texto) -->
         <div class="imagem">
-            <img src="imagens/banner-delivery.png" alt="banner delivery motoboy areial-pb">
+            <img src="imagens/banner-principal.jpg" alt="primeiro banner conteúdo do site">
         </div>
         <article class="texto-conteudo1">
             <div>
@@ -48,30 +53,28 @@
             <div>
                 <h1>Banner segundo</h1>
                 <p>Hic accusamus quis et tenetur natus est placeat illo. Non magnam eveniet aut maiores illum qui veritatis eligendi eos illum soluta? In ratione omnis sit internos quaerat qui amet deleniti quo autem vero ad consequuntur voluptas. Aut atque tempora sed consequatur modi eos delectus atque eum galisum quaerat ea aperiam laborum vel galisum voluptatem.</p>
-                <a href="#" style="text-decoration:none">Mais Cortes</a>
+                <a href="#" style="text-decoration:none">Saiba Mais</a>
             </div>
         </div>
         <div class="imagem">
-            <img src="imagens/banner-delivery.png" alt="banner delivery motoboy areial-pb">
+            <img src="imagens/banner-principal.jpg" alt="Segundo banner conteúdo do site">
         </div>
     </section> <!-- Fim do segundo conteúdo do site (imagem, texto) -->
 
-    <div id='linha-banner' class='linha-banner'></div> <!-- linha do banner -->
-
     <div class="fila"> <!-- inicio da fila de cards -->
         <div class="card primeiro">
-          <h2>Pizzas</h2>
-          <p>Diversidade em sabores</p>
+          <h2>Portfólios</h2>
+          <p>alguns de nossos projetos</p>
         </div>
    
         <div class="card segundo">
-          <h2>Bebidas</h2>
-          <p>Refrigerantes</p>
+          <h2>Contatos</h2>
+          <p>nossas redes sociais</p>
         </div>
    
         <div class="card terceiro">
-          <h2>Salgados</h2>
-          <p>Outras opções de comida</p>
+          <h2>Sobre Nós</h2>
+          <p>conheça um pouco sobre a gente...</p>
         </div>
       </div> <!-- término da fila de cards -->
 

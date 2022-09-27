@@ -10,7 +10,6 @@ header{
     justify-content: center;
     background-color: #141819;
     overflow: hidden;
-
     position: fixed;
     width: 100%;
 }
@@ -56,6 +55,36 @@ header .logo{
 .banner img{
     width: 100%;
 }
+.texto {
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    top: 500px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+    left: 150px;
+}
+.link-banner{
+    position: absolute;
+    background-color: #F4C708;
+    color:#fff;
+    text-align: center;
+    top: 690px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+    left: 150px;
+    border-radius: 22px;
+}
+.link-banner a{
+    color: #141819;
+    font-weight: bold;
+}
+.link-banner:hover{
+    background-color:#fff;
+    transition: 0,5s;
+}
 /* Banner conteudo 1 e 2 do site */
 .Primeiro-conteudo{
     display: flex;
@@ -91,12 +120,11 @@ header .logo{
     color: #fff;
 }
 .texto-conteudo1 a{
-    background-color:#141819;
-    border-radius: 8px;
+    background-color:#F4C708;
+    border-radius: 22px;
     padding: 8px 20px;
     font-size: 14px;
-    color: #fff;
-    font-weight: bolder;
+    color: #141819;
 }
 .Segundo-conteudo{
     display: flex;
@@ -131,20 +159,19 @@ header .logo{
     color: #fff;
 }
 .texto-conteudo2 a{
-    background-color: #141819;
-    color: #fff;
-    border-radius: 8px;
+    background-color: #F4C708;
+    color: #141819;
+    border-radius: 22px;
     padding: 8px 20px;
     font-size: 14px; 
-    font-weight: bolder;
 }
 .texto-conteudo1 a:hover{
-    background-color:#F4C708;
-    transition: 1s;
+    background-color:#fff;
+    transition: 0,5s
 }
 .texto-conteudo2 a:hover{
-    background-color:#F4C708;
-    transition: 1s;
+    background-color:#fff;
+    transition: 0,5s
 }
 /* Fim do Banner conteudo 1 e 2 do site */
 
